@@ -93,7 +93,7 @@ body {
     background-color: #FAF8F0;
 }
 
-.step_2_line_1 {
+.step_2_line {
     width: 42px;
     height: 8px;
     background-color: #E08631;
@@ -136,4 +136,28 @@ body {
     border: none;
     cursor: pointer;
     margin-top: 52px;
+}
+
+.step_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 568px;
+}
+
+.step_3 h1 {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    text-align: center;
+    max-width: 1287px;
+}
+
+.step_3_bg {
+    height: 600px;
+    background-image: url(/img/bg_2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
