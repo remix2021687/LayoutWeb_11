@@ -7,7 +7,6 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    height: 1500px;
 }
 
 .topnav {
@@ -82,4 +81,59 @@ body {
     top: 12px;
     left: 17px;
     transition: 0.5s ease;
+}
+
+.step_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    height: 410px;
+    background-color: #FAF8F0;
+}
+
+.step_2_line_1 {
+    width: 42px;
+    height: 8px;
+    background-color: #E08631;
+    margin-bottom: 32px;
+    transition: 0.5s ease;
+}
+
+.step_2_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 768px;
+    gap: 40px;
+}
+
+.step_info_h2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+    max-width: 360px;
+}
+
+.step_2_right h2 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+}
+
+.step_2_right button {
+    width: 107px;
+    height: 42px;
+    background-color: #52503B;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 52px;
 }
